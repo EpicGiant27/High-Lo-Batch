@@ -39,6 +39,7 @@ goto close
 echo !ESC![32mYou win. The correct number was %target%.!ESC![0m
 goto close
 
+:: underneath, we use this label to make to code cleaner
 :close
 cls
 echo !ESC![101m!ESC!
