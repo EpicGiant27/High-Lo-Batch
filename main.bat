@@ -41,7 +41,6 @@ goto close
 
 :: underneath, we use this label to make to code cleaner
 :close
-cls
 echo !ESC![101m!ESC!
 timeout /t -1
 exit
