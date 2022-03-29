@@ -33,9 +33,14 @@ goto :main
 
 :lose
 echo !ESC![31mYou have no guesses. The correct number was %target%.!ESC![0m
-timeout /t -1
-exit
+goto close
 
 :win
-echo !ESC![32mYou win! The correct number was %target%.!ESC![0m
+echo !ESC![32mYou win. The correct number was %target%.!ESC![0m
+goto close
+
+:close
+cls
+echo !ESC![101m!ESC!
 timeout /t -1
+exit
