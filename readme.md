@@ -5,9 +5,9 @@ The game generates a number, gives you  10 guesses and tells you whether your gu
 
 # Showcase
 
-https://i.imgur.com/JLaPMSh.png
-https://i.imgur.com/Zjs1mdc.png
-https://i.imgur.com/Zjs1mdc.png
+![Display of guess function.](https://i.imgur.com/JLaPMSh.png)
+![Display of winning function.](https://i.imgur.com/Zjs1mdc.png)
+![Display of losing function.](https://i.imgur.com/f7ZD742.png)
 
 # Credits
 
